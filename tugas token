@@ -1,0 +1,5 @@
+import nltk
+print("Nama = Moch. Duvan Rizky A\n", "NIM = 04119008\n", "Prodi = Sistem Komputer - A\n")
+kata = 'saya duvan semester4 mahasiswa univ. narotama '
+token = kata.split()
+print('\n'.join(token))
